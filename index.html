@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="action.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="rose.png">
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+
+</head>
+
+<body>
+    <canvas id="confetti"></canvas>
+    <div class="icon-container">
+        <img src="heart.png" alt="" class="row justify-content-center heart-img">
+        <div class="eyes">
+            <div class="eye">
+              <div class="pupil"></div>
+            </div>
+            <div class="eye">
+              <div class="pupil"></div>
+            </div>
+          </div>          
+    </div>
+    <div class="container">
+        <h1 class="row justify-content-center display-3 py-3">Will you be my Valentine?</h1>
+        <h1 class="row justify-content-center py-3" id="click">Say yes and make me happy!</h1>
+        <div class="row justify-content-center py-3">
+            <div class="col-auto">
+                <span class="btn" id="yes-btn" onclick="onClickYes()">YES</span>
+            </div>
+            <div class="col-auto">
+                <span class="btn" id="no-btn" onclick="onClickNo()">NO</span>
+            </div>
+        </div>
+    </div>
+    
+
+
+</body>
+
+</html>

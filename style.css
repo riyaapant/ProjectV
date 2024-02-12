@@ -1,0 +1,89 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: linear-gradient(45deg, #4B0000, #8f0505, #bd1d3f, #610808);
+}
+
+.container {
+  margin: 10 auto;
+  position: absolute;
+  top: 230px;
+  left: 110px;
+}
+
+.icon-container{
+  margin: auto;
+  z-index: -1;
+}
+.heart-img {
+  margin: 0 auto;
+  width: 25%;
+  position: absolute;
+  top: -40px;
+  left: 515px;
+}
+
+.eyes {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+  height: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  column-gap: 50px;
+}
+
+.eye {
+  width: 65px;
+  height: 55px;
+  border-radius: 100%;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pupil {
+  width: 25px;
+  height: 25px;
+  border-radius: 25px;
+  background-color: #000;
+}
+
+.confetti {
+  max-width: 10px;
+}
+
+h1 {
+  font-family: 'Lobster', sans-serif;
+  color: #e65c7a;
+  text-shadow: 2px 2px 4px rgba(83, 7, 7, 0.7);
+}
+
+p {
+  color: #d4788c;
+  text-shadow: 2px 2px 4px rgba(97, 10, 10, 0.7);
+  font-family: 'Satisfy', cursive;
+}
+
+.btn {
+  width: 200px;
+  height: 50px;
+  background-color: #d4788c;
+  border: 2px solid #9D1764;
+  border-radius: 10px;
+  font-size: 25px;
+  font-family: 'Lobster', sans-serif;
+}
+
+.btn:hover {
+  background-color: rgb(223, 164, 164);
+  border: 4px solid #9D1764;
+
+}
+
